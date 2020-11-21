@@ -1,0 +1,22 @@
+.knwowus-section{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 2.5%;
+  button {
+    width: 200px;
+    background: transparent;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    :hover{
+      color:$secondary-color ;
+    }
+  }
+}

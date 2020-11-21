@@ -1,0 +1,19 @@
+.service-section {
+  padding: 5%;
+  .ant-col {
+    text-align: center;
+    padding: 2% 3%;
+    h3 {
+      width: 100%;
+      border-bottom: 3px solid $primary-color;
+    }
+    p {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      color: $primary-color;
+      margin: 10% 0;
+    }
+  }
+}
