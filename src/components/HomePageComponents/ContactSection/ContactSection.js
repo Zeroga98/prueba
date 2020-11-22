@@ -23,7 +23,7 @@ const ContactSection = () => {
   return (
     <div className="contact-section">
       <Row>
-        <Col lg={12} xs={24} className="content-form">
+        <Col lg={12} xs={24} className="contact-section__content">
           <h2>Soy</h2>
           <Form>
             <Radio.Group>
