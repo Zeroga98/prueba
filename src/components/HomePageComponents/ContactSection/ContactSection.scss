@@ -1,0 +1,91 @@
+.contact-section {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  font-family: Nunito;
+  font-style: normal;
+  color: $primary-color;
+  h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: $primary-color;
+  }
+  img {
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+  }
+  .content-form {
+    .ant-radio-group{
+      width: 100%;
+    }
+    border: 3px solid $complementary;
+    border-radius: 30px;
+    padding: 5%;
+    .ant-checkbox .ant-checkbox-inner {
+      border-color: $complementary;
+      border-radius: 50%;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      border-radius: 50%;
+      color: $complementary;
+    }
+    .ant-checkbox-wrapper {
+      font-weight: 600;
+      font-size: 80%;
+      color: $primary-color;
+    }
+    .ant-radio-inner,
+    .ant-radio-inner:after {
+      border: 1px solid $complementary;
+    }
+    .ant-radio-checked .ant-radio-inner:after {
+      background: $complementary;
+      margin-left: -21%;
+      margin-top: -20%;
+      width: 100%;
+      height: 100%;
+    }
+    .ant-form-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      label {
+        font-weight: 600;
+        font-size: 80%;
+        color: $primary-color;
+        margin-bottom: 20px;
+      }
+      input {
+        border: transparent;
+        color: $primary-color;
+      }
+      ::placeholder {
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 80%;
+      }
+    }
+    a {
+      color: $primary-color;
+      font-size: 90%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .anticon {
+        margin: 7% 0;
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 100%;
+      }
+    }
+    .content-submit {
+      .ant-form-item-control-input-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

@@ -56,4 +56,14 @@ export const dummy = {
       image:'developer'
     } 
   ],
+  service:[
+    {
+      id: '1',
+      name: 'Consulta',
+    },
+    {
+      id: '1',
+      name: 'Reporte',
+    },
+  ],
 }

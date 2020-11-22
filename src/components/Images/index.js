@@ -9,6 +9,8 @@ const index = ({ name, ...props }) => {
 		designer:require('../../assets/images/Backgrounds/user_interface.svg'),
 		developer:require('../../assets/images/Backgrounds/Web developer.svg'),
 		training:require('../../assets/images/Backgrounds/world_wide_web.svg'),
+		consulting:require('../../assets/images/Backgrounds/consulting.svg'),
+
 
 		linkendin: require('../../assets/images/Icons/Linkeding.svg'),
 		instagram:require('../../assets/images/Icons/Instagram.svg'),
