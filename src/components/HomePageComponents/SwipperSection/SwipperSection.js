@@ -18,7 +18,7 @@ const SwiperSection = () => {
         slidesPerView={1}
         navigation
         pagination>
-        <SwiperSlide className="slide-container">
+        <SwiperSlide className="slide-section__container">
           <Row>
             <Col lg={10} xs={24} >
               <Image name="campaing" />
@@ -32,7 +32,7 @@ const SwiperSection = () => {
             </Col>
           </Row>
         </SwiperSlide>
-        <SwiperSlide className="slide-container">
+        <SwiperSlide className="slide-section__container">
           <Row>
             <Col lg={14} xs={24} className="slide-container__content">
                 <h2 className="title-generic">Construimos tecnología y también capacitamos</h2>
